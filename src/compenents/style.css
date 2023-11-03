@@ -1,0 +1,185 @@
+.topnav_sub {
+  display: flex;
+
+  justify-content: space-between;
+}
+.topnav_logo {
+  color: #f37504;
+}
+
+.navbar {
+  background: #d1e3ff;
+}
+.navbar_brand {
+  color: blue;
+  font-weight: bold;
+}
+.nav_items {
+  font-size: 19px;
+  font-weight: 500;
+}
+.hero {
+  background: #d1e3ff;
+}
+.hero_item1 {
+  align-items: center;
+  display: flex;
+}
+.hero_item1 h1 {
+  color: #0355cc;
+  font-weight: bold;
+  font-size: 45px !important;
+}
+.hero_item1 .contact_us {
+  background-color: #f37504 !important;
+  border: none;
+  padding: 15px 60px;
+  font-size: 24px;
+  font-weight: 600;
+  transition: background-color 1s ease 0s;
+}
+.contact_us:hover {
+  background-color: transparent !important;
+  border: 1px solid #f37504 !important ;
+  color: #f37504 !important;
+}
+.hero_item1 p {
+  max-width: fit-content;
+}
+.hero_item1 div {
+  padding: 10px;
+}
+.servises_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  transition: background-color 1s ease 0s;
+}
+.servises_item:hover {
+  background-color: #f37504;
+  color: white !important;
+}
+.servises_item span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.about_us {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+.aboutus_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutus_text h2 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #0355cc;
+}
+
+.about_us_butn {
+  background-color: #0355cc !important;
+  border: none;
+  padding: 15px 60px !important;
+  font-size: 24px;
+  font-weight: 600 !important;
+  transition: background-color 1s ease 0s;
+  border-radius: 5px !important;
+}
+.about_us_butn:hover {
+  background-color: white !important;
+  color: #0355cc !important;
+}
+.homeServise {
+  background-color: #d1e3ff;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+}
+.professional_text_col {
+  display: flex;
+  align-items: center;
+}
+
+.detail_box h2 {
+  color: #0355cc;
+  font-size: 50px;
+}
+
+.read_more {
+  background-color: #f37504 !important;
+  border: none !important;
+  padding: 15px 60px !important;
+  font-size: 24px;
+  font-weight: 600 !important;
+  transition: background-color 1s ease 0s;
+  border-radius: 5px !important;
+}
+.read_more:hover {
+  background-color: transparent !important;
+  color: #f37504 !important;
+  border: 1px solid #f37504 !important;
+}
+.ourServises {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.ourServises_col .ourServises_col_items {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 10px;
+  transition: background-color 1s ease 0s;
+}
+.ourServises_col_items:hover{
+    background-color: #f37504;
+
+}
+
+.ourServises_col div img {
+  min-height: 100px;
+  width: 100px;
+}
+
+.ourServises_col_items span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ourServises_col_items p {
+  font-size: 18px;
+}
+.ourServises_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourServises_container h1{
+    text-align: center;
+    font-weight: bold;
+
+}
+.ourServises_container button {
+    background-color: #0355cc !important;
+  border: none !important;
+  padding: 15px 60px !important;
+  font-size: 24px;
+  font-weight: 600 !important;
+  transition: background-color 1s ease 0s;
+  border-radius: 5px !important;
+}
+
+.ourServises_container button:hover {
+    background-color: transparent !important;
+    color: #0355cc !important;
+    border: 1px solid #0355cc !important;
+  }
